@@ -1,0 +1,13 @@
+{
+    "name": "Anti Shamil Protection",
+    "description": "Anti Shamil guard protects your PC from searching and playing pterodactyl gay porn. With this extension, you can safely leave your work computer unlocked without worrying about damaging your psyche when you return.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {},
+    "action": {},
+    "permissions": ["tabs", "activeTab", "scripting"],
+    "background":{
+        "service_worker": "scripts/protector.js",
+        "persosten": false
+    }
+}
